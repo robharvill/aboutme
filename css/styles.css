@@ -1,0 +1,132 @@
+/* Imported Fonts
+font-family: 'Raleway', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto Mono', monospace;
+*/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #effcef;
+  /*
+  Text align will center anything without a width.
+  */
+}
+
+h1{
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+}
+
+h2{
+  font-size: 2.5rem;
+  margin: 10px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #655c56 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 20px auto;
+}
+
+/*Text*/
+.listheader{
+  text-decoration: underline grey dotted;
+}
+.intro{
+width: 50%;
+margin: auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  min-height: 300px;
+}
+.parent{
+  display: table;
+}
+.child{
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.contact-me{
+  width: 40%;
+  margin: 20px auto;
+  line-height: 2;
+}
+
+/*Containers*/
+.top-container{
+  position: relative;
+  border-bottom: 30px double #655c56;
+
+}
+.middle-container{
+  background-color: #ccedd2;
+  padding: 50px 0 0 0;
+}
+.bottom-container{
+  background-color: #94d3ac;
+  padding: 40px;
+}
+
+/* Images*/
+.top-cloud{
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+}
+.circle{
+  border-radius: 40%;
+  width: 20%;
+}
+.skill-img{
+  width: 50%;
+  float: left;
+  margin: 30px;
+}
+.skill-img2{
+  width: 50%;
+  float: right;
+  margin: 30px;
+}
+.footimg{
+  width: 50px;
+  padding: 20px;
+}
+
+/*Button*/
+.myButton {
+	background-color:#655c56;
+	border-radius:28px;
+	border:1px solid #94d3ac;
+	display:inline-block;
+	cursor:pointer;
+	color:#ccedd2;
+	font-size: 1.5rem;
+	font-weight:bold;
+  font-family: 'Roboto Mono', monospace;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #94d3ac;
+}
+.myButton:hover {
+	color:#94d3ac;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
